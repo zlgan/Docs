@@ -5,6 +5,7 @@ git init
 git add  aa.txt
 //添加所有文件
 git add .
+git add -all
 //提交文件到本地仓库
 git commit -m "写点提交的备注"
 
