@@ -1,0 +1,20 @@
+
+//初始化本地仓库
+git init
+//添加文件到本地仓库
+git add  aa.txt
+//添加所有文件
+git add .
+//提交文件到本地仓库
+git commit -m "写点提交的备注"
+
+//与远程仓库建立关联
+git remote add origin https://github.com/zlgan/ASP.NET-MVC.git
+//删除与远程库的关联
+git remote rm origin
+
+//从远程仓库拉代码
+git pull --rebase origin master
+
+//上传到远程库
+git push -u origin master
